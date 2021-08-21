@@ -1,0 +1,42 @@
+.donate{
+    background-image: url(image/background.png);
+}
+.donate-div{
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.left{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    background: rgba(0,0,0,0.3);
+    height: 400px;
+}
+.left h1{
+    color: yellow;
+}
+.left h1:nth-child(1){
+    color: gold;
+}
+.links1{
+    display: flex;
+    flex-direction: row;
+}
+.links1 img{
+    margin: 30px 20px;
+    width: 150px;
+    height: 100px;
+}
+.right{
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    flex-direction: column;
+    background: rgba(0,0,0,0.2);
+}

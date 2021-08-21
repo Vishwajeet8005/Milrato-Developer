@@ -1,0 +1,244 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Sans-serif;
+}
+body{
+    background-image: url(image/background.png);
+    background-color: black;
+}
+
+/* left side vali bar he  */
+
+.left-slide{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    position: fixed;
+    left: 0%;
+    height: 100%;
+    width: 4%;
+}
+.left-slide a{
+    padding: 40px 0px;
+    font-size:xx-large;
+}
+.left-slide a:nth-child(1){
+  padding: 10px 0px 50px 0px;
+}
+
+/* iske anar saab kuch likha ne ohk */
+
+.main-body{
+    display: flex;
+    /* background-color: gold; */
+    flex-direction: column;
+    right: 0%;
+    float: right;
+    width: 96%;
+    z-index: -1;
+}
+
+/* first blue ma navigation bar ke liye he ye */
+
+.navigation{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: black;
+    top: 0%;
+    position: sticky;
+    z-index: 10;
+}
+.navigation .links{
+    text-decoration: none;
+    margin: 0px 10px;
+    font-weight: 700;
+}
+.bu1{
+    background-color: #ffdd00;  
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: black;
+    box-shadow: inset 0 0 4px black;
+}
+.bu1:hover{
+  color: black;
+}
+
+
+/* footer style */
+
+    .footer{
+        background: black;
+        display: flex;
+    }
+    .upper-1{
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding: 20px 0px;
+    }
+    .upper{
+        background: black;
+        display: flex;
+        padding: 10px;
+    }
+    .side{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 25%;
+    }
+    .side a{
+        color: white;
+        text-decoration: none;
+    }
+    .side h3{
+        color: white;
+        padding: 3px;
+    }
+    .side h1{
+        color: gold;
+        text-shadow: 0 0 4px yellow;
+        padding: 5px;
+    }
+    .side i{
+        padding: 10px 0px;
+        font-size: x-large;
+    }
+    .ico a{
+        padding: 0px 10px;
+    }
+    .lower{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0,0,0,0.6);
+    }
+    .lower p{
+      color: white;
+    }
+    .lower a{
+        color: yellow;
+        text-decoration: none;
+        padding: 5px 5px;
+    }
+    .lower a i{
+        padding: 5px 5px;
+    }
+
+
+    /* yaha se main start */
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        background: url(image/hero-img.jpg);
+        background-size: cover;
+    }
+    .main h1{
+        font-size: 100px;
+        margin: 20px;
+    }
+    .main .p1{
+        width: 600px;
+        margin: 20px 0px 20px 0px;
+        font-size: x-large;
+    }
+    .main span a{
+        color: white;
+        text-decoration: none;
+        padding: 15px 30px;
+        background-color: black;
+        font-weight: 700;
+        font-size: large;
+        border-radius: 20px;
+        margin: 0px;
+        text-shadow: 0 0 4px black;
+        box-shadow: 0 0 4px whitesmoke;
+    }
+    .main span{
+        margin: 30px;
+    }
+
+/* .main1 ka style */
+
+.main1{
+            display: flex;
+            padding: 40px 0px;
+            /* padding: 20px 0px; */
+            background-color: rgba(242, 205, 161,0.7);
+        }
+        .main1 .main1-left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35%;
+            /* background-color: aqua; */
+        }
+        .main1-left img{
+            /* position: relative;
+            transform: translate(-50%,-50%);
+            top: 40%;
+            left: 50%; */
+            transform: translateX(-50px);
+            width: 200px;
+            height: 300px;
+        }
+        .q1{
+            background-color:black;
+            width: 200px;
+            height: 300px;
+            position: absolute;
+            transform: translate(-30px,-30px);
+        }
+        .q2{
+            background-color: grey;
+            width: 200px;
+            height: 300px;
+            position: absolute;
+            transform: translate(40px,40px);
+        }
+        .main1-right{
+            display: flex;
+            width: 65%;
+            flex-direction: column;
+        }
+        .main1-right{
+            padding: 20px;
+        }
+        .main1-right h3{
+            padding: 0px 0px 20px 0px;
+            font-weight: 700;
+        }
+        .main1-right h1{    
+            padding: 0px 0px 20px 0px;
+            font-weight: 700;
+        }
+        .main1-right p{
+            width: 700px;
+        }
+        .main1-right img{
+            width: 600px;
+            padding: 40px 0px 20px 20px;
+        }
+        .l a{
+            text-decoration: none;
+            font-size: large;
+            color: black;
+            background: yellow;
+            padding: 10px 30px;
+            text-shadow: 0 0 4px black;
+            border-radius: 15px;
+            box-shadow: 0 0 4px gold;
+        }
+        .l{
+            padding: 10px 0px 0px 40px;
+        }
